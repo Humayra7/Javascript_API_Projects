@@ -1,0 +1,45 @@
+body { 
+    background-color: #f0e6dd;
+    background-image:url('bcg.jpg');
+}
+  
+  .button {
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #292118;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .button:hover {
+    background-color: #766b60;
+  }
+  
+  .button:active {
+    background-color: #12343b;
+   
+    transform: translateY(4px);
+  }
+  
+  #verse {
+    border: 1px solid #000000;
+    padding: 10px;
+    font-style: bold;
+    quotes:"\201C" "\201D";
+    font-family: Droid Arabic Naskh, san-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #translation {
+    font-style: italic;
+    font-family: Lucida;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+ 
